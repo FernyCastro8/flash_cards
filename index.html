@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash Card App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HTML that needs to show when the page loads -->
+  <h1 class="main-header text-center">Flash Cards</h1>
+
+  <section class="card-wrap text-center">
+    <button id="start">Start</button>
+
+    <div class="card-display hide">
+      <h3 id="question-display"></h3>
+
+      <!-- Timer Display -->
+      <h1 id="timer-display">5</h1>
+
+      <!-- Answer Display -->
+      <p id="answer-display" class="hide"></p>
+
+      <button id="next" class="hide">Next Card</button>
+    </div>
+  </section>
+
+  <script src="js/cards.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
